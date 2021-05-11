@@ -1,4 +1,2 @@
-#trial 
+this is my first website and its my portfolio.
 
-file so far.
-trying github.
