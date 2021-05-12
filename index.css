@@ -11,7 +11,7 @@
     position:relative;
     top: 100px;
     text-align: center;
-    font-size: 500%;
+    font-size: 6.5em;
     font-family: 'Syne', sans-serif;
     margin-top: -30px;
 }
@@ -20,18 +20,14 @@
     text-align: center;
 }
 #dnd{
+    display: flex;
     font-family: 'Antic Slab', serif;
     font-size: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     position: relative;
-    top: -300px;
-    text-align: center;
-}
-.dd1{
-    color: black;
-    padding-right: 75%;
-}
-.dd2{
-    padding-left: 65%;
+    top: -14em;
+    
 }
 #about{
     font-family: 'Play', sans-serif;
@@ -41,26 +37,14 @@
     line-height: 50px;
 }
 #foot{
+    margin: 0em -0.5em -0.5em -0.5em;
     line-height: 50px;
     background-color: rgb(46, 41, 41);
     color: beige;
-    width:101.1%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: 'Rubik', sans-serif;
-    margin: 0px -10px -10px -10px;
-}
-#menu{
-    position: fixed;
-    top: 8px;
-    left: 10px;
-}
-#programming{
-    margin: 0px 0px 100px 0px;
-}
-#webdev{
-    margin: 0px 0px 70px 0px;
 }
 #images{
     font-family: 'Nova flat', cursive;
@@ -68,6 +52,11 @@
     font-weight: bold;
     text-align: center;
     margin: 10px 0px 100px 0px;
+}
+#intro1, #intro2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 #contacts{
     text-align: center;
