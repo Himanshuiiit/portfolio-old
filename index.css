@@ -4,7 +4,7 @@
 #name{
     text-align: center;
     padding: 5px 0px 5px 0px;
-    font-size: 25px;
+    font-size: 1.5em;
     font-family: 'Nova flat', cursive;
 }
 .welcome{
@@ -21,7 +21,7 @@
 }
 #dnd{
     font-family: 'Antic Slab', serif;
-    font-size: 16px;
+    font-size: 1em;
     position: relative;
     top: -300px;
     text-align: center;
@@ -36,7 +36,7 @@
 #about{
     font-family: 'Play', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 2em;
     margin: 300px 20% 100px 20%;
     line-height: 50px;
 }
@@ -44,9 +44,7 @@
     line-height: 50px;
     background-color: rgb(46, 41, 41);
     color: beige;
-    margin-left: -7px;
-    margin-right: -7px;
-    margin-bottom: -10px;
+    width:100.5%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -64,12 +62,21 @@
     margin: 0px 0px 70px 0px;
 }
 #images{
+    font-family: 'Nova flat', cursive;
+    font-size: 2em;
+    font-weight: bold;
     text-align: center;
     margin: 10px 0px 100px 0px;
 }
 #contacts{
     text-align: center;
     font-family: 'Play', sans-serif;
-    font-size: 30px;
+    font-size: 2em;
     line-height: 80px;
+}
+a{
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
 }
