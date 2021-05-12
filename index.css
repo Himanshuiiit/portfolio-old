@@ -52,12 +52,12 @@
     font-size: 2em;
     font-weight: bold;
     text-align: center;
-    margin: 10px 0px 100px 0px;
 }
 #intro1, #intro2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items:center;
 }
 #contacts{
     text-align: center;
