@@ -1,3 +1,7 @@
+@keyframes change-font-size{
+    from{}
+    to{font-size: 1.05em;}
+}
 #body{
     background-color:rgb(232, 233, 231);
     margin: 0px 0px 0px 0px;
@@ -10,11 +14,11 @@
 }
 .welcome{
     position:relative;
-    top: 100px;
+    top: 110px;
     text-align: center;
     font-size: 6.5em;
     font-family: 'Syne', sans-serif;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 .photo{
     width: auto;
@@ -25,16 +29,16 @@
     font-family: 'Antic Slab', serif;
     font-size: 1em;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0% 7% 0% 7%;
     position: relative;
-    top: -14em;
-    
+    top: -16em;   
 }
 #about{
     font-family: 'Play', sans-serif;
     text-align: center;
     font-size: 2em;
-    margin: 300px 20% 100px 20%;
+    margin: 0px 20% 100px 20%;
     line-height: 50px;
 }
 #foot{
@@ -70,4 +74,12 @@ a{
 }
 a:hover{
     font-weight: bolder;
+    animation-name: change-font-size;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+.rot{
+    position: relative;
+    bottom: 12em;
+    left: 49em;
 }
