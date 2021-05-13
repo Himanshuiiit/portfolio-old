@@ -1,0 +1,85 @@
+@keyframes change-font-size{
+    from{}
+    to{font-size: 1.05em;}
+}
+#body{
+    background-color:rgb(232, 233, 231);
+    margin: 0px 0px 0px 0px;
+}
+#name{
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-size: 1.5em;
+    font-family: 'Nova flat', cursive;
+}
+.welcome{
+    position:relative;
+    top: 110px;
+    text-align: center;
+    font-size: 7vw;
+    font-family: 'Syne', sans-serif;
+    margin-top: -20px;
+}
+.photo{
+    width: auto;
+    text-align: center;
+}
+#dnd{
+    display: flex;
+    font-family: 'Antic Slab', serif;
+    font-size: 1em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0% 7% 0% 7%;
+    position: relative;
+    top: -16em;   
+}
+#about{
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 20% 100px 20%;
+    line-height: 50px;
+}
+#foot{
+    width: 100%;
+    line-height: 50px;
+    background-color: rgb(46, 41, 41);
+    color: beige;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+#images{
+    font-family: 'Nova flat', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+#intro1, #intro2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+}
+#contacts{
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 2em;
+    line-height: 80px;
+}
+a{
+    color: black;
+}
+a:hover{
+    font-weight: bolder;
+    animation-name: change-font-size;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+.rot{
+    position: relative;
+    bottom: 25vh;
+    left: 51vw;
+}
