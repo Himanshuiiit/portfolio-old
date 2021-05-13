@@ -16,7 +16,7 @@
     position:relative;
     top: 110px;
     text-align: center;
-    font-size: 6.5em;
+    font-size: 7vw;
     font-family: 'Syne', sans-serif;
     margin-top: -20px;
 }
@@ -80,6 +80,6 @@ a:hover{
 }
 .rot{
     position: relative;
-    bottom: 12em;
-    left: 49em;
+    bottom: 25vh;
+    left: 51vw;
 }
