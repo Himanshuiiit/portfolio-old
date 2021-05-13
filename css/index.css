@@ -2,6 +2,10 @@
     from{}
     to{font-size: 1.05em;}
 }
+@keyframes rotation{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg);}
+}
 #body{
     background-color:rgb(232, 233, 231);
     margin: 0px 0px 0px 0px;
@@ -72,7 +76,7 @@
 a{
     color: black;
 }
-a:hover{
+#bottom_half #about a:hover{
     font-weight: bolder;
     animation-name: change-font-size;
     animation-duration: 0.25s;
@@ -80,6 +84,37 @@ a:hover{
 }
 .rot{
     position: relative;
-    bottom: 25vh;
-    left: 51vw;
+    bottom: 26.4vh;
+    left: 50vw;
+    animation: rotation 10s infinite linear;
+    
+}
+#programming{
+    width: 300px;
+}
+#photography{
+    width: 450px;
+}
+#webdev{
+    width: 400px;
+}
+
+#programming:hover{
+    width: 350px;
+    transition: all 0.25s ease-in-out;
+}
+ #photography:hover{
+    width: 480px;
+    transition: all 0.25s ease-in-out;
+}
+#webdev:hover{
+    width: 430px;
+    transition: all 0.25s ease-in-out;
+} 
+#travel{
+    color:chartreuse;
+    width: 370px;
+}
+#gaming{
+    width: 470px;
 }
