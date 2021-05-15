@@ -126,3 +126,12 @@ a{
 #gaming{
     width: 470px;
 }
+#travel:hover{
+    color:chartreuse;
+    width: 395px;
+    transition: all 0.25s ease-in-out;
+}
+#gaming:hover{
+    width: 500px;
+    transition: all 0.25s ease-in-out;
+}
