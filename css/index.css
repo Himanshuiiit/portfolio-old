@@ -24,6 +24,13 @@
     font-family: 'Syne', sans-serif;
     margin-top: -20px;
 }
+@media screen and (max-width:1080px) {
+    .welcome{
+        font-size: 3vw;
+        top:0px;
+        margin-top: 40px;
+    }
+}
 .photo{
     width: auto;
     text-align: center;
@@ -82,12 +89,13 @@ a{
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
 .rot{
-    position: relative;
-    bottom: 26.4vh;
-    left: 50vw;
     animation: rotation 10s infinite linear;
-    
+    text-align: center;
 }
 #programming{
     width: 300px;
