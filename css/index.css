@@ -1,10 +1,9 @@
-@keyframes change-font-size{
-    from{}
-    to{font-size: 1.05em;}
-}
 @keyframes rotation{
     from{transform: rotate(0deg);}
     to{transform: rotate(359deg);}
+}
+*{
+    margin: 0px 0px 0px 0px;
 }
 #body{
     background-color:rgb(232, 233, 231);
@@ -24,16 +23,11 @@
     font-family: 'Syne', sans-serif;
     margin-top: -20px;
 }
-@media screen and (max-width:1080px) {
-    .welcome{
-        font-size: 3vw;
-        top:0px;
-        margin-top: 40px;
-    }
-}
 .photo{
-    width: auto;
     text-align: center;
+}
+#pic{
+    width: 470px;
 }
 #dnd{
     display: flex;
@@ -42,8 +36,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0% 7% 0% 7%;
-    position: relative;
-    top: -16em;   
+ 
 }
 #about{
     font-family: 'Play', sans-serif;
@@ -96,9 +89,10 @@ a{
 .rot{
     animation: rotation 10s infinite linear;
     text-align: center;
+    width: 200px;
 }
 #programming{
-    width: 300px;
+    width: 340px;
 }
 #photography{
     width: 450px;
@@ -108,7 +102,7 @@ a{
 }
 
 #programming:hover{
-    width: 350px;
+    width: 370px;
     transition: all 0.25s ease-in-out;
 }
  #photography:hover{
@@ -120,18 +114,66 @@ a{
     transition: all 0.25s ease-in-out;
 } 
 #travel{
-    color:chartreuse;
     width: 370px;
 }
 #gaming{
     width: 470px;
 }
 #travel:hover{
-    color:chartreuse;
     width: 395px;
     transition: all 0.25s ease-in-out;
 }
 #gaming:hover{
     width: 500px;
     transition: all 0.25s ease-in-out;
+}
+@media screen and (max-width:767px) {
+    .welcome{
+        font-size: 7vw;
+        top:0px;
+        margin-top: 40px;
+    }
+    .rot{
+        width:150px;
+    }
+    #pic{
+        width:95%;
+    }
+    #programming{
+        width: 90%;
+    }
+    #photography{
+        width: 90%;
+    }
+    #webdev{
+        width: 90%;
+    }
+    
+    #programming:hover{
+        width: 95%;
+        transition: all 0.25s ease-in-out;
+    }
+     #photography:hover{
+        width: 95%;
+        transition: all 0.25s ease-in-out;
+    }
+    #webdev:hover{
+        width: 95%;
+        transition: all 0.25s ease-in-out;
+    } 
+    #travel{
+        width: 90%;
+    }
+    #gaming{
+        width: 90%;
+    }
+    #travel:hover{
+        width: 95%;
+        transition: all 0.25s ease-in-out;
+    }
+    #gaming:hover{
+        width: 95%;
+        transition: all 0.25s ease-in-out;
+    }
+    
 }
