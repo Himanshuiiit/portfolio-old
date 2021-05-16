@@ -75,12 +75,14 @@
 }
 a{
     color: black;
+    text-decoration: none;
 }
-#bottom_half #about a:hover{
+.dd1 a:hover, #about a:hover{
     font-weight: bolder;
     animation-name: change-font-size;
     animation-duration: 0.25s;
     animation-fill-mode: forwards;
+    text-decoration: underline;
 }
 .container{
     display: flex;
@@ -104,14 +106,17 @@ a{
 #programming:hover{
     width: 370px;
     transition: all 0.25s ease-in-out;
+    filter: drop-shadow(0px 1px 1px #000);
 }
  #photography:hover{
     width: 480px;
     transition: all 0.25s ease-in-out;
+    filter: drop-shadow(0px 2px 2px #000);
 }
 #webdev:hover{
     width: 430px;
     transition: all 0.25s ease-in-out;
+    filter: drop-shadow(0px 3px 3px #000);
 } 
 #travel{
     width: 370px;
@@ -122,10 +127,12 @@ a{
 #travel:hover{
     width: 395px;
     transition: all 0.25s ease-in-out;
+    filter: drop-shadow(0px 2px 2px #000);
 }
 #gaming:hover{
     width: 500px;
     transition: all 0.25s ease-in-out;
+    filter: drop-shadow(0px 2px 2px #000);
 }
 @media screen and (max-width:767px) {
     .welcome{
